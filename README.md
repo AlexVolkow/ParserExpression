@@ -10,7 +10,7 @@ Parser
 Возвращяет объект, реализующий интерфейс [TripleExpression](Parser/src/expression/TripleExpression.java)
 с единственным методом `int evaluate(int x, int y, int z)`, через который происходит подсчет значения выражения. 
 * Пример использования
-```
+```java
 ExpressionParser parser = new ExpressionParser();
 String expr = "1000000*x*x*y*y*z/(x-1)";
 TripleExpression res = parser.parse(expr);
